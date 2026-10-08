@@ -1,0 +1,30 @@
+{
+  "forecast_horizon_hours": 24,
+  "split_timestamp": "2023-03-14 00:00:00",
+  "training_rows": 140040,
+  "testing_rows": 35045,
+  "best_model": "XGBoost",
+  "models": [
+    {
+      "model": "Linear Regression",
+      "MAE": 36.400110709076785,
+      "RMSE": 46.83215900295854,
+      "R2": 0.6156656379119234,
+      "training_seconds": 0.4637420177459717
+    },
+    {
+      "model": "Random Forest",
+      "MAE": 34.066786406580476,
+      "RMSE": 44.495241762673764,
+      "R2": 0.653065093980669,
+      "training_seconds": 56.74813485145569
+    },
+    {
+      "model": "XGBoost",
+      "MAE": 33.84908846591593,
+      "RMSE": 44.469426509345595,
+      "R2": 0.6534675466486173,
+      "training_seconds": 8.782281160354614
+    }
+  ]
+}
